@@ -23,6 +23,9 @@ function Intro_content(p) {
 			<Path path={paths[p.index-1]}/>
 			<Code command='Contact Information'/>
 			<Contact />
+			<Path path={paths[p.index-1]}/>
+			<Code command='Experience'/>
+			<Exp />
 		</div>
 	);
 }
@@ -62,9 +65,9 @@ function Exp_content(p) {
 			<Path path={paths[p.index-1]}/>
 			<Code command='Experience'/>
 			<Exp />
-			<Path path={paths[p.index-1]}/>
+			{/* <Path path={paths[p.index-1]}/>
 			<Code command='Contact Information'/>
-			<Contact />
+			<Contact /> */}
 		</div>
 	);
 }

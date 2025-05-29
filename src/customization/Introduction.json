@@ -1,7 +1,7 @@
 {
-    "intro" : "profile-site is a Reactjs project that builds a terminal style website for yourself. (you can put your introduction here) I am currently a M.S. student at ...., and ... . After the introduction, you have to replace the icon link to your social accounts.",
-    "github" : "https://github.com/chi-0828",
-    "googlescholar" : "https://scholar.google.com.tw/citations?user=SoyMWUsAAAAJ",
-    "linkedin" : "https://www.linkedin.com/in/liang-chi-chen-882a531b9",
-    "orcid" : "https://orcid.org/0000-0003-2579-4305"
+    "intro" : "My journey into the world of DevOps started with simple curiosity. As I began to explore how technology could streamline processes and automate tasks, I quickly realised how fascinating and impactful this field is. What started as an interest in understanding the tools behind infrastructure management led me to dive deeper into technologies like Docker, Kubernetes, and CI/CD pipelines. Every new tool or concept I explored opened up new possibilities and pushed me to learn more. the ability to solve real problems through automation, further fueled my passion for DevOps.",
+    "github" : "https://github.com/farrasyakila",
+    "googlescholar" : "https://google.com",
+    "linkedin" : "https://www.linkedin.com/in/farra-syakila-balqis",
+    "orcid" : "https://google.com/"
 }

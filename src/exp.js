@@ -8,7 +8,7 @@ export function Exp() {
         result.push(
             <div class="edu">
                 <span id="logo-block">
-                <img src={require(`${company.logo}`)}  alt={"company"} />
+                <img src={company.logo} alt="company" />
                 </span>
                 <span class="text">
                     <p class="school">{company.name}  </p>

@@ -19,7 +19,7 @@ function Menu() {
                             }\
                         "}</style>
                     </i> 
-                    &nbsp;user@your-name-Home-Page
+                    &nbsp;user@Farra-Home-Page
                 </h1>
             </div>
             <div class="buttons-flex2">
@@ -50,38 +50,38 @@ class Container extends Component {
             <div class="container">
                 <Menu />
                 <div class="nav">
-                    <button className={Number(this.state.Index) === Number(1) ? 'active': null}  onClick={() => this.goPage(1)}>
-                        <span>~/Home</span>
+                    {/* <button className={Number(this.state.Index) === Number(1) ? 'active': null}  onClick={() => this.goPage(1)}> */}
+                        {/* <span>~/Home</span>
                         <span class="left-command">
                             &#8984;1
-                        </span>
-                    </button>
-                    <button className={Number(this.state.Index) === Number(2) ? 'active': null} onClick={() => this.goPage(2)}>
-                        <span>~/Project</span>
+                        </span> */}
+                    {/* </button> */}
+                    {/* <button className={Number(this.state.Index) === Number(2) ? 'active': null} onClick={() => this.goPage(2)}> */}
+                        {/* <span>~/Project</span> */}
                         {/* if your are an engineer, just replcae to "Project"  */}
-                        <span class="left-command">
-                            &#8984;2
-                        </span>
-                    </button> 
-                    <button className={Number(this.state.Index) === Number(3) ? 'active': null} onClick={() => this.goPage(3)}>
-                        <span>~/Publication</span>
+                        {/* <span class="left-command">
+                            &#8984;2 */}
+                        {/* </span> */}
+                    {/* </button>  */}
+                    {/* <button className={Number(this.state.Index) === Number(3) ? 'active': null} onClick={() => this.goPage(3)}> */}
+                        {/* <span>~/Publication</span> */}
                         {/* if your are an engineer, just replcae to "Project"  */}
-                        <span class="left-command">
+                        {/* <span class="left-command">
                             &#8984;3
-                        </span>
-                    </button> 
-                    <button className={Number(this.state.Index) === Number(4) ? 'active': null} onClick={() => this.goPage(4)}>
-                        <span>~/Experience</span>
+                        </span> */}
+                    {/* </button>  */}
+                    {/* <button className={Number(this.state.Index) === Number(4) ? 'active': null} onClick={() => this.goPage(4)}> */}
+                        {/* <span>~/Experience</span>
                         <span class="left-command">
                             &#8984;4
-                        </span>
-                    </button>
-                    <button className={Number(this.state.Index) === Number(5) ? 'active': null} onClick={() => this.goPage(5)}>
-                        <span>~/Award</span>
-                        <span class="left-command">
+                        </span> */}
+                    {/* </button> */}
+                    {/* <button className={Number(this.state.Index) === Number(5) ? 'active': null} onClick={() => this.goPage(5)}> */}
+                        {/* <span>~/Award</span> */}
+                        {/* <span class="left-command">
                             &#8984;5
-                        </span>
-                    </button>
+                        </span> */}
+                    {/* </button> */}
                 </div>
                 <App index={this.state.Index}/>
             </div>

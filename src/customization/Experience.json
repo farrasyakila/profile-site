@@ -1,16 +1,22 @@
 {
     "companies" : [
         {
-            "logo" : "./img/iislogo-removebg-preview.png",
-            "name" : "Institute of XXXXXX, OOOOOOO OOOO",
-            "position_time" : "Research Intern, Summer, 2022",
-            "discription" : "rocessing in/near memory system project, e.g., realizing genome sequencing on a processing-in-memory system"
+            "logo" : "https://storage.googleapis.com/gcp-bucket-dicoding/profile-page/msig.jpg",
+            "name" : "Sinarmas MSIG Life",
+            "position_time" : "Product Owner",
+            "discription" : "Create thorough project plans that outline milestones, timelines, and resource allocations in detail."
         },
         {
-            "logo" : "./img/patere-removebg-preview.png",
-            "name" : "XXXX Co.",
-            "position_time" : "Software Engineering Intern, Aug. 2021 - Jun. 2022",
-            "discription" : "Computer vision and deep learning project, e.g., implementing an object detection application for patient assistance"
+            "logo" : "https://storage.googleapis.com/gcp-bucket-dicoding/profile-page/worklifebeyond_logo.jpeg",
+            "name" : "Worklife and Beyond",
+            "position_time" : "Product Owner",
+            "discription" : "Create thorough project plans that outline milestones, timelines, and resource allocations in detail."
+        },
+        {
+            "logo" : "https://storage.googleapis.com/gcp-bucket-dicoding/profile-page/logo-telkom-indonesia.jpg",
+            "name" : "Telkom Indonesia",
+            "position_time" : "Tax Intern",
+            "discription" : "Worked collaboratively with members of the Tax team, building strong relationships and rapport."
         }
     ]
 }

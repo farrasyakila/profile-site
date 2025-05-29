@@ -1,8 +1,10 @@
 import React from "react";
-import head from "./img/me5.png";
+// import head from "./img/me5.png";
 import "./styles/main.css";
 import Introraw from './customization/Introduction.json'
 import Eduraw from './customization/Education.json'
+
+const head = "https://storage.googleapis.com/gcp-bucket-dicoding/profile-page/me.jpg";
 
 
 export function Read_Intro() {
@@ -12,8 +14,8 @@ export function Read_Intro() {
             <p>
                 <a target="_blank" href={Introraw.github} rel="noreferrer"><i class="fa-brands fa-github"></i></a>
                 <a target="_blank" href={Introraw.linkedin} rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                <a target="_blank" href={Introraw.googlescholar} rel="noreferrer"><i class="ai ai-google-scholar"></i></a>
-                <a target="_blank" href={Introraw.orcid} rel="noreferrer"><i class="fa-brands fa-orcid"></i></a>
+                {/* <a target="_blank" href={Introraw.googlescholar} rel="noreferrer"><i class="ai ai-google-scholar"></i></a> */}
+                {/* <a target="_blank" href={Introraw.orcid} rel="noreferrer"><i class="fa-brands fa-orcid"></i></a> */}
             </p>
         </span>
     );
@@ -23,7 +25,7 @@ export function Intro() {
     return (
         <div class="intro">
             <span id="blcok">
-                <img src={head}/>
+                <img src={head} alt="profile" />
             </span>
             <Read_Intro />
         </div>
@@ -36,7 +38,7 @@ export function Edu() {
         result.push(
             <div class="edu">
                 <span id="logo-block">
-                <img src={require(`${school.logo}`)}  alt={"school"} />
+                <img src={school.logo} alt="school" />
                 </span>
                 <span class="text">
                     <p class="school">{school.name}  </p>
